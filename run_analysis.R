@@ -66,4 +66,4 @@ tidy <- summarize_each(
         )
 
 ## Persist the tidy data set
-write.csv(tidy, "tidy.csv", row.names = F)
+write.table(tidy, "tidy.txt", row.name=FALSE)
